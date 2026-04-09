@@ -28,9 +28,10 @@ A content-based movie recommendation system built with Python, using cosine simi
    ```
 
 4. **Prepare the Data**:
-   - Ensure you have the following data files in the project directory:
-     - `movies.csv`: Movie metadata from TMDB.
+   - Download the TMDB dataset files:
+     - `movies.csv`: Movie metadata from TMDB (available from Kaggle or TMDB API).
      - `credits.csv`: Cast and crew information from TMDB.
+   - Place these files in the project directory.
    - Run the Jupyter notebook `movie_recommendation_system.ipynb` to process the data and generate the required pickle files (`movie_dict.pkl` and `similarity.pkl`).
 
 ## Usage
